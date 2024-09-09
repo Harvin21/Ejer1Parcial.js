@@ -1,3 +1,4 @@
+//Harvin Manfredy Lainez Salvador U20240630
 let Gastossuma = 0;
 let Gastosarray = [
     { vivienda: 170, alimentos: 250 },
