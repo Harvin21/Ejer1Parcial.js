@@ -1,3 +1,5 @@
+//Harvin Manfredy Lainez Salvador U20240630
+
 // Paso 1: Crear un array de películas
 let peliculas = [
     { titulo: "Intensamente 2", genero: "Infantil" },
