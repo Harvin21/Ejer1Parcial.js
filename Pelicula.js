@@ -1,6 +1,6 @@
 //Harvin Manfredy Lainez Salvador U20240630
 
-// Paso 1: Crear un array de películas
+//Crear un array de películas
 let peliculas = [
     { titulo: "Intensamente 2", genero: "Infantil" },
     { titulo: "Thor love and thunder", genero: ["Acción", "Ciencia Ficción"] },
@@ -14,10 +14,10 @@ let peliculas = [
     { titulo: "John Wick", genero: "Acción" }
   ];
   
-  // Paso 2: Definir el género deseado
+  //Definir el género deseado
   let generoDeseado = "Acción";
   
- // Paso 3: Buscar las películas que coincidan con el género deseado
+ //Buscar las películas que coincidan con el género deseado
 let peliculasEncontradas = [];
 
 for (let i = 0; i < peliculas.length; i++) {
@@ -26,7 +26,7 @@ for (let i = 0; i < peliculas.length; i++) {
   }
 }
 
-// Paso 4: Mostrar el resultado
+//Mostrar el resultado
 if (peliculasEncontradas.length > 0) {
   console.log(`Te recomendamos las siguientes películas de género ${generoDeseado}: ${peliculasEncontradas.join(', ')}`);
 } else {
